@@ -1,0 +1,64 @@
+2025-11-23 14:00:31,521 — INFO — Flask app started on http://localhost:5000
+2025-11-23 14:00:31,631 — INFO — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-23 14:00:31,631 — INFO — [33mPress CTRL+C to quit[0m
+2025-11-23 14:00:31,634 — INFO —  * Restarting with stat
+2025-11-23 14:00:32,004 — INFO — Flask app started on http://localhost:5000
+2025-11-23 14:00:32,021 — WARNING —  * Debugger is active!
+2025-11-23 14:00:32,025 — INFO —  * Debugger PIN: 909-287-918
+2025-11-23 14:00:40,833 — INFO — GET /get-data called
+2025-11-23 14:00:41,248 — INFO — package: mysql.connector.plugins
+2025-11-23 14:00:41,248 — INFO — plugin_name: caching_sha2_password
+2025-11-23 14:00:41,249 — INFO — AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-11-23 14:00:41,255 — INFO — Database connection established successfully
+2025-11-23 14:00:41,297 — INFO — GET /get-data success — returned 4 records
+2025-11-23 14:00:41,299 — INFO — Database connection closed (GET)
+2025-11-23 14:00:41,303 — INFO — 127.0.0.1 - - [23/Nov/2025 14:00:41] "GET /get-data HTTP/1.1" 200 -
+2025-11-23 14:00:41,398 — INFO — 127.0.0.1 - - [23/Nov/2025 14:00:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-23 14:48:55,828 — INFO — GET /get-data called
+2025-11-23 14:48:56,152 — INFO — Database connection established successfully
+2025-11-23 14:48:56,168 — INFO — GET /get-data success — returned 4 records
+2025-11-23 14:48:56,170 — INFO — Database connection closed (GET)
+2025-11-23 14:48:56,172 — INFO — 127.0.0.1 - - [23/Nov/2025 14:48:56] "GET /get-data HTTP/1.1" 200 -
+2025-11-23 14:49:40,965 — INFO — Flask app started on http://localhost:5000
+2025-11-23 14:49:41,007 — INFO — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-23 14:49:41,007 — INFO — [33mPress CTRL+C to quit[0m
+2025-11-23 14:49:41,009 — INFO —  * Restarting with stat
+2025-11-23 14:49:41,359 — INFO — Flask app started on http://localhost:5000
+2025-11-23 14:49:41,385 — WARNING —  * Debugger is active!
+2025-11-23 14:49:41,387 — INFO —  * Debugger PIN: 909-287-918
+2025-11-23 14:55:08,117 — INFO — Flask app started on http://localhost:5000
+2025-11-23 14:55:08,142 — INFO — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-23 14:55:08,142 — INFO — [33mPress CTRL+C to quit[0m
+2025-11-23 14:55:08,143 — INFO —  * Restarting with stat
+2025-11-23 14:55:08,489 — INFO — Flask app started on http://localhost:5000
+2025-11-23 14:55:08,503 — WARNING —  * Debugger is active!
+2025-11-23 14:55:08,505 — INFO —  * Debugger PIN: 909-287-918
+2026-04-30 18:20:52,364 — INFO — Flask app started on http://localhost:5000
+2026-04-30 18:20:52,391 — INFO — [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-30 18:20:52,391 — INFO — [33mPress CTRL+C to quit[0m
+2026-04-30 18:20:52,392 — INFO —  * Restarting with stat
+2026-04-30 18:20:52,693 — INFO — Flask app started on http://localhost:5000
+2026-04-30 18:20:52,705 — WARNING —  * Debugger is active!
+2026-04-30 18:20:52,706 — INFO —  * Debugger PIN: 909-287-918
+2026-04-30 18:20:57,475 — INFO — GET /get-data called
+2026-04-30 18:20:57,759 — INFO — package: mysql.connector.plugins
+2026-04-30 18:20:57,759 — INFO — plugin_name: caching_sha2_password
+2026-04-30 18:20:57,759 — INFO — AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-04-30 18:20:57,763 — INFO — Database connection established successfully
+2026-04-30 18:20:57,764 — INFO — GET /get-data success — returned 3 records
+2026-04-30 18:20:57,765 — INFO — Database connection closed (GET)
+2026-04-30 18:20:57,768 — INFO — 127.0.0.1 - - [30/Apr/2026 18:20:57] "GET /get-data HTTP/1.1" 200 -
+2026-04-30 19:29:46,530 — INFO — POST /add-data — incoming payload: {'CricketerID': 10, 'CricketerName': 'Dhoni', 'TypeCricket': 'Bat/WKT'}
+2026-04-30 19:29:47,438 — INFO — Database connection established successfully
+2026-04-30 19:29:47,561 — INFO — POST /add-data success — inserted ID: 10
+2026-04-30 19:29:47,564 — INFO — Database connection closed (POST)
+2026-04-30 19:29:47,576 — INFO — 127.0.0.1 - - [30/Apr/2026 19:29:47] "[35m[1mPOST /add-data HTTP/1.1[0m" 201 -
+2026-04-30 19:30:03,958 — INFO — GET /get-data called
+2026-04-30 19:30:04,579 — INFO — Database connection established successfully
+2026-04-30 19:30:04,594 — INFO — GET /get-data success — returned 4 records
+2026-04-30 19:30:04,596 — INFO — Database connection closed (GET)
+2026-04-30 19:30:04,601 — INFO — 127.0.0.1 - - [30/Apr/2026 19:30:04] "GET /get-data HTTP/1.1" 200 -
