@@ -154,4 +154,5 @@ def delete_data(CricketerID):
 # -----------------------------------------
 if __name__ == '__main__':
     logger.info("Flask app started on http://localhost:5000")
-    app.run(debug=True)
+    #app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000,debug=True)
