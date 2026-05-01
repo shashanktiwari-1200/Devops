@@ -24,9 +24,9 @@ app = Flask(__name__)
 def get_db_connection():
     try:
         conn = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="root123",
+            host="shashank.c1wse6uyadpz.ap-south-1.rds.amazonaws.com",
+            user="admin",
+            password="root1234",
             database="shashank"
         )
         logger.info("Database connection established successfully")
