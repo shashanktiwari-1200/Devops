@@ -47,7 +47,7 @@ def get_data():
         conn = get_db_connection()
         cursor = conn.cursor(dictionary=True)
 
-        cursor.execute("SELECT * FROM Cricketer")
+        cursor.execute("SELECT * FROM cricketer")
         rows = cursor.fetchall()
 
         logger.info(f"GET /get-data success — returned {len(rows)} records")
@@ -90,7 +90,7 @@ def add_data():
         conn = get_db_connection()
         cursor = conn.cursor()
 
-        query = "INSERT INTO Cricketer (CricketerID, CricketerName, TypeCricket) VALUES (%s, %s, %s)"
+        query = "INSERT INTO cricketer (CricketerID, CricketerName, TypeCricket) VALUES (%s, %s, %s)"
         cursor.execute(query, (CricketerID, CricketerName, TypeCricket))
         conn.commit()
 
@@ -125,7 +125,7 @@ def delete_data(CricketerID):
         conn = get_db_connection()
         cursor = conn.cursor()
 
-        query = "DELETE FROM Cricketer WHERE CricketerID = %s"
+        query = "DELETE FROM cricketer WHERE CricketerID = %s"
         cursor.execute(query, (CricketerID,))
         conn.commit()
 
@@ -154,5 +154,5 @@ def delete_data(CricketerID):
 # -----------------------------------------
 if __name__ == '__main__':
     logger.info("Flask app started on http://localhost:5000")
-    #app.run(debug=True)
+    #   app.run(debug=True)
     app.run(host="0.0.0.0", port=5000,debug=True)
