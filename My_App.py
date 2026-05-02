@@ -21,13 +21,28 @@ app = Flask(__name__)
 # -----------------------------------------
 #  Database Connection
 # -----------------------------------------
+# def get_db_connection():
+#     try:
+            
+#             conn = mysql.connector.connect(
+#               host=os.getenv("DB_HOST"),
+#               user=os.getenv("DB_USER"),
+#               password=os.getenv("DB_PASSWORD"),
+#               database=os.getenv("DB_NAME")
+#         )
+#         logger.info("Database connection established successfully")
+#         return conn
+#     except Exception as e:
+#         logger.error(f"Database connection failed: {str(e)}")
+#         raise
+
 def get_db_connection():
     try:
         conn = mysql.connector.connect(
-            host="shashank.c1wse6uyadpz.ap-south-1.rds.amazonaws.com",
-            user="admin",
-            password="root1234",
-            database="shashank"
+            host=os.getenv("DB_HOST"),
+            user=os.getenv("DB_USER"),
+            password=os.getenv("DB_PASSWORD"),
+            database=os.getenv("DB_NAME")
         )
         logger.info("Database connection established successfully")
         return conn
